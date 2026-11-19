@@ -6,7 +6,7 @@ description: "Create a .NET isolated Azure Functions app that reacts to changes 
 
 projects:
   - name: Azure Functions Cosmos DB Trigger QuickStart (.NET)
-    shortName: cosmos-trigger-csharp-azd
+    shortName: functions-quickstart-dotnet-cosmosdb
     root: .
     stack: dotnet
     language: "C#"
