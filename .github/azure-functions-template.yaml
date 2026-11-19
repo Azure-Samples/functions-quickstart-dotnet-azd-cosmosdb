@@ -1,0 +1,12 @@
+# This descriptor drives template package creation in the packaging pipeline.
+schemaVersion: 1
+
+identity: Azure.Functions.Templates.CosmosDbDotNet
+description: "Create a .NET isolated Azure Functions app that reacts to changes in Azure Cosmos DB, with Bicep infrastructure for deployment using azd."
+
+projects:
+  - name: Azure Functions Cosmos DB Trigger QuickStart (.NET)
+    shortName: cosmos-trigger-csharp-azd
+    root: .
+    stack: dotnet
+    language: "C#"
